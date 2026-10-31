@@ -1,0 +1,12 @@
+﻿# Fichiers generes automatiquement par les scripts
+logs/*.log
+reports/*.csv
+reports/*.html
+
+# Secrets - ne jamais versionner les vrais identifiants
+secrets/*.xml
+!secrets/smtp-credentials.example.xml
+
+# Divers
+*.tmp
+.vscode/
